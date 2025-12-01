@@ -1,0 +1,9 @@
+REVISED VERSION WITH IMPROVEMENTS:
+
+Anthropic is building AI the way it should be built: fundamentally sound, with safety, trust, and responsibility at the core, not as an afterthought.
+
+During my Master's in Business at the University of St. Andrews, I interned as an AI Clinical Data Image Associate at Optos, working with clinicians to leverage retinal datasets for diagnostic deep learning tools. What really struck me was seeing these clinicians struggle to deploy these tools in real-world healthcare settings. The technology worked—in fact, it worked incredibly well—but the trust wasn't there. When I moved to Topcon Healthcare as a Marketing & Strategy Associate, I saw the same pattern from the marketing side. Working with KOLs, partners, and institutions, I realized that the companies that succeeded weren't just the ones with the best models. They were the ones that had built trust from the start.
+
+That's what draws me to Anthropic. Most companies are racing to build the most powerful models. You're racing to build the right one. It's a different philosophy on how AI should be, and how it should be utilized. When I think about partner marketing at Anthropic, I'm not just thinking about helping ISVs and SIs sell Claude. I'm thinking about helping them build businesses on technology that's designed to be trustworthy. That's a fundamentally different conversation than most AI companies are having—and it's harder, because you're not just selling capability, you're selling a philosophy. You're enabling responsible adoption. You're helping partners build on technology that will matter in the years to come, not just what works today.
+
+I want to work at Anthropic because this is where the real work is happening—building the foundation for how businesses will use AI responsibly. And I want to be the person who helps partners understand that the companies that win in the long run are the ones that build on technology designed to last.
