@@ -2,14 +2,22 @@
 
 I want to work at Anthropic because you're building AI the way it should be built: fundamentally sound, with safety, trust, and responsibility at the core—not as an afterthought.
 
-During my Master's in Business Management at the University of St. Andrews, I interned as an AI Clinical Data Image Associate at Optos and worked with clinicians leveraging retinal datasets to develop diagnostic deep learning tools. What really struck me was seeing these clinicians struggling to deploy these tools in real-world healthcare settings. The technology worked—in fact, it worked incredibly well—but the trust wasn't there. When I moved to Topcon Healthcare as a Marketing & Strategy Associate, I started working with KOLs, partners, and institutions, and I kept seeing the same pattern. I quickly realized that the companies that succeeded weren't just the ones with the best models. They were the ones that carved out the space to build trust first.
+At Optos, I watched clinicians build deep learning models that could detect blindness from retinal scans. The technology was beautiful. It worked. But when it came time to deploy it, the doctors wouldn't use it. They didn't trust it. They couldn't explain it to their patients. And I realized: we built the wrong thing first.
 
-That's what's so compelling to me about Anthropic. Most companies are racing to build the most powerful models. You're racing to build the right ones. It's a fundamentally different philosophy on how AI should be built and how it should be deployed.
+When I moved to Topcon Healthcare, I saw the same story play out again and again with KOLs, partners, health systems. Everyone was chasing the most powerful model. Nobody was asking if people would actually trust it with their patients' sight. With their livelihood. With their lives.
 
-When I think about partner marketing at Anthropic, I'm not just thinking about helping ISVs and SIs sell Claude. I'm thinking about helping them build businesses on technology that's designed to be trustworthy from the ground up. That's a fundamentally different conversation than most AI companies are having right now. It's much harder, because you're not just selling a capability—you're selling a philosophy. You're enabling responsible adoption. You're helping partners build on technology that will matter in ten years, not just what works today.
+And then I found Anthropic.
 
-I spent the last two years coordinating cross-functional initiatives across five teams and two continents. I've worked with KOLs, startups, and health systems to co-create programs that balance innovation with responsibility. I drove 200% growth in digital engagement at Topcon because I learned how to find the people who already cared about getting things right and made it easier for them to act. I speak seven languages because I figured out early that meeting people in their context—their culture, their concerns—is the only way to build real partnerships. Not just transactional ones.
+Most companies are in a race to build the most powerful AI. You're in a different race entirely. You're racing to build the right one. That distinction changes everything.
 
-I want to work at Anthropic because this is where the real work is happening. The hard work of building AI that people can actually trust when it matters. The work I want to do doesn't exist at most companies.
+When I think about partner marketing at Anthropic, I'm not thinking about helping ISVs and SIs sell another AI tool. I'm thinking about building a movement. I'm thinking about finding the people who believe that AI should be trustworthy—not just capable—and giving them the tools to build businesses that reflect that belief.
 
-It exists here.
+This is harder. So much harder. You're not selling a feature set. You're selling a philosophy. You're asking partners to build on a foundation that prioritizes doing things right over doing things fast. You're asking them to believe that ten years from now, the companies that win won't be the ones that moved first—they'll be the ones that moved responsibly.
+
+I believe that.
+
+I've spent two years working across five teams and two continents, building partnerships with people who care about getting things right. I drove 200% growth in engagement because I learned to find the people who already believed in doing things the right way and made it easier for them to act on that belief. I speak seven languages because I learned early that real partnerships aren't built on pitches—they're built on understanding people's context, their culture, their fears, and their hopes.
+
+I want to work at Anthropic because I don't want to look back in ten years and realize I spent my career optimizing for the wrong thing. I want to be part of something that matters. The hard work of building AI that people can actually trust when everything is on the line.
+
+The work I want to do doesn't exist at most companies. It exists here.
