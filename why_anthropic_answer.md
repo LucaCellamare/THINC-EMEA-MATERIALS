@@ -1,0 +1,21 @@
+# Why Anthropic?
+
+Throughout my career, I've witnessed firsthand the transformative potential—and inherent risks—of deploying AI in high-stakes environments. At Optos, I worked directly with multimodal retinal imaging datasets that trained deep learning models for disease detection. At Topcon Healthcare, I led innovation initiatives around AI-powered healthcare solutions. In both roles, I confronted the same critical question: *How do we ensure AI systems are reliable, safe, and genuinely beneficial when the stakes are someone's sight, health, or livelihood?*
+
+This question became the foundation of my Master's dissertation on AI's impact on clinical decision-making and professional jurisdiction. What I discovered was that technical capability alone isn't enough. The most consequential challenge in AI isn't just building powerful systems—it's building *trustworthy* systems that can be responsibly integrated into the fabric of society. This is precisely why Anthropic's work resonates so deeply with me.
+
+**Anthropic is uniquely positioned at the intersection of cutting-edge AI research and principled deployment—and that alignment is rare.** Your commitment to Constitutional AI and interpretability research demonstrates a fundamental understanding that AI safety isn't a constraint on innovation; it's the foundation that enables sustainable, widespread adoption. As someone who has navigated the complexities of introducing AI solutions to conservative, risk-averse industries like healthcare, I know that the partners and enterprises most worth reaching are those who won't compromise on safety and reliability. Anthropic is building exactly the kind of AI systems these partners need.
+
+**The Partner Marketing Lead role represents the perfect convergence of my experience and values.** I've spent my career translating complex technical innovations into compelling narratives for diverse stakeholders—from Key Opinion Leaders and health systems to cross-regional teams and executive leadership. At Topcon, I scaled digital engagement by 200% and drove 15x increases in post impressions not through superficial tactics, but by building authentic relationships and telling stories that resonated with what healthcare professionals actually cared about: better patient outcomes, clinical validation, and ethical implementation.
+
+Partner marketing at Anthropic isn't just about promoting a product—it's about building an ecosystem of organizations committed to deploying AI responsibly. My experience coordinating cross-functional initiatives across EMEA and the Americas, coupled with my work facilitating collaborations between startups, health systems, and industry leaders, has prepared me to identify, engage, and enable the kinds of strategic partners who share Anthropic's vision. I understand how to meet partners where they are, speak their language (literally and figuratively—I work across seven languages), and co-create go-to-market strategies that drive mutual value.
+
+**What excites me most is the opportunity to be part of a company that's thinking decades ahead.** I'm not interested in optimizing for short-term metrics at the expense of long-term impact. Anthropic's focus on scalable oversight, mechanistic interpretability, and alignment research signals a commitment to solving the hard problems that will determine whether AI becomes a genuinely beneficial technology. As someone whose academic work explored how AI reshapes professional boundaries and power dynamics, I'm energized by the prospect of helping partners navigate this transformation responsibly.
+
+**I want to work at Anthropic because this is where the future of AI is being built correctly.** Not just quickly. Not just impressively. But correctly—with safety, reliability, and human values embedded at every level. And I want to be the person who helps the world's most forward-thinking organizations understand why that distinction matters, and how to leverage Claude and Anthropic's research to achieve their most ambitious goals while upholding the highest standards.
+
+The question isn't why Anthropic. The question is: where else would I go to do work that actually matters?
+
+---
+
+**Word count: ~590 words**
