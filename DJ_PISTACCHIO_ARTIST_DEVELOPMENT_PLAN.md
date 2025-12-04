@@ -7,7 +7,7 @@
 **Genre:** House / Tech-House / Italo-Disco / Groove  
 **Current Status:** Emerging artist with small but growing following  
 **Active Markets:** U.S. & Europe  
-**Management:** [Your Agency Name]  
+**Management:** Amara Studios  
 **Plan Duration:** 12 Months  
 **Date Created:** December 2024
 
@@ -15,7 +15,7 @@
 
 ## Executive Summary
 
-DJ Pistacchio represents the next wave of European-influenced house music breaking into global consciousness. With a distinctive sonic identity blending classic Italo-disco warmth with modern tech-house precision, Luca has the foundational elements for cult status. This plan outlines the strategic roadmap to transform him from an emerging talent to a recognized name in the underground-to-mainstream pipeline.
+DJ Pistacchio represents the next wave of European-influenced house music breaking into global consciousness. With a distinctive sonic identity blending house/tech-house grooves, eclectic Italo-disco, and sultry, groove-heavy sets that evoke the seductive sophistication of Hotel Costes, Luca has the foundational elements for cult status. His sound is warm, sexy, and unmistakably European — the kind of music that transforms a room. This plan outlines the strategic roadmap to transform him from an emerging talent to a recognized name in the underground-to-mainstream pipeline.
 
 ---
 
@@ -34,10 +34,10 @@ DJ Pistacchio represents the next wave of European-influenced house music breaki
 
 ### Artist Narrative & Story
 Create the "origin story" that press and fans will repeat:
-- Italian roots meets international sound
+- Born in Italy, shaped by the world — a sonic passport from Milano to Mykonos to Manhattan
 - The name "Pistacchio" — lean into Italian heritage, make it memorable
 - Position as the bridge between Italo-disco's golden era and Berlin's modern underground
-- **Tagline options:** "Gusto Italiano, Groove Universale" / "The Italian Job" / "Dolce Vita on the Dancefloor"
+- **Tagline options:** "Gusto Italiano, Groove Universale" / "The Italian Job" / "Dolce Vita After Dark"
 
 ### Unique Selling Proposition (USP)
 > "DJ Pistacchio delivers what the scene is missing: warmth. In an era of sterile tech-house, he brings the soul of Italian summer evenings to dark club rooms."
@@ -617,4 +617,4 @@ DJ Pistacchio has all the ingredients for cult status. With disciplined executio
 
 ---
 
-*Prepared by [Your Agency Name] — Artist Management & Development*
+*Prepared by Amara Studios — Artist Management & Development*
