@@ -1,0 +1,13 @@
+I want to work at Anthropic because you're building AI the way it should be built—with safety and responsibility at the core, not as an afterthought.
+
+At Optos, I curated retinal imaging datasets for deep learning models. What struck me was watching clinicians try to deploy these in real healthcare settings. The technology worked, but the trust wasn't there. When I moved to Topcon Healthcare and started working with partners—KOLs, startups, health systems—I saw the same pattern. The companies that succeeded weren't just the ones with the best models. They were the ones that had built trust, that had thought about safety and responsibility from the start.
+
+That's what draws me to Anthropic. Most AI companies are racing to build the most powerful models. You're racing to build the right ones. The Constitutional AI approach, the focus on helpfulness and harmlessness, the long-term thinking—this isn't just a different product strategy. It's a different philosophy about what AI should be, and how it should be deployed.
+
+When I think about partner marketing at Anthropic, I'm not just thinking about helping ISVs and SIs sell Claude. I'm thinking about helping them build businesses on technology that's designed to be trustworthy. That's a fundamentally different conversation than most AI companies are having. It's harder, because you're not just selling capability—you're selling a philosophy. But that's what makes it meaningful.
+
+My dissertation at St. Andrews was on how AI transforms clinical decision-making and professional boundaries. What I found was that the companies that win long-term are the ones that help their partners navigate transformation responsibly. That's what partner marketing at Anthropic is really about. You're not just enabling sales—you're enabling responsible adoption. You're helping partners build on technology that will matter in five years, not just what works today.
+
+I know I'd need to learn the mechanics—MDF programs, co-op funding, working with ISVs and SIs. But I've learned quickly before, and I understand the fundamental challenge: helping partners transform their businesses on technology that's built to last. The 200% growth I drove at Topcon came from aligning messaging across EMEA and the Americas. That's the same challenge here, just at a different scale.
+
+I want to work at Anthropic because this is where the real work is happening. Not the hype, not the demos—the actual foundation for how businesses will use AI responsibly. And I want to be part of building that.
