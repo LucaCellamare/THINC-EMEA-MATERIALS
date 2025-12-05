@@ -1,0 +1,883 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================
+% PACKAGES
+% ============================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}  % Palatino font - elegant and corporate
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{fontawesome5}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{parskip}
+
+% ============================================
+% COLOR DEFINITIONS — AMARA STUDIOS BRAND
+% ============================================
+\definecolor{amaraprimary}{HTML}{59160B}      % Deep burgundy - PRIMARY
+\definecolor{amarasecondary}{HTML}{862111}    % Rich crimson
+\definecolor{amaracream}{HTML}{F6F2EB}        % Warm cream
+\definecolor{amaralight}{HTML}{FBFAF7}        % Light ivory
+\definecolor{amaradark}{HTML}{1A1A1A}         % Near black
+\definecolor{amaragray}{HTML}{4A4A4A}         % Dark gray
+\definecolor{amaralightgray}{HTML}{E8E4DD}    % Light warm gray
+
+% ============================================
+% HYPERLINK SETUP
+% ============================================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=amaraprimary,
+    urlcolor=amarasecondary,
+    pdfauthor={Amara Studios},
+    pdftitle={DJ Pistacchio - Artist Development Plan},
+    pdfsubject={Brand Advisory \& Creative Strategy}
+}
+
+% ============================================
+% HEADER & FOOTER
+% ============================================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textcolor{amaraprimary}{\textsc{Amara Studios}}}
+\fancyhead[R]{\small\textcolor{amaragray}{\textsc{Confidential}}}
+\fancyfoot[C]{\small\textcolor{amaragray}{Page \thepage\ of \pageref{LastPage}}}
+\fancyfoot[R]{\small\textcolor{amaragray}{December 2024}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{amaraprimary}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{amaralightgray}\leaders\hrule height \footrulewidth\hfill}}
+
+% ============================================
+% SECTION FORMATTING
+% ============================================
+\titleformat{\section}
+  {\Large\bfseries\color{amaraprimary}}
+  {\thesection}{1em}{}[\textcolor{amaraprimary}{\titlerule}]
+  
+\titleformat{\subsection}
+  {\large\bfseries\color{amaradark}}
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{amaragray}}
+  {\thesubsubsection}{1em}{}
+
+% ============================================
+% CUSTOM ENVIRONMENTS
+% ============================================
+\newtcolorbox{executivebox}{
+    colback=amaralight,
+    colframe=amaraprimary,
+    boxrule=1.5pt,
+    arc=0pt,
+    left=12pt,
+    right=12pt,
+    top=12pt,
+    bottom=12pt
+}
+
+\newtcolorbox{quotebox}{
+    colback=amaralight,
+    colframe=amaraprimary,
+    boxrule=0pt,
+    leftrule=4pt,
+    arc=0pt,
+    left=12pt,
+    right=12pt,
+    top=10pt,
+    bottom=10pt
+}
+
+\newtcolorbox{highlightbox}{
+    colback=amaracream,
+    colframe=amaracream,
+    boxrule=0pt,
+    arc=0pt,
+    left=12pt,
+    right=12pt,
+    top=10pt,
+    bottom=10pt
+}
+
+% ============================================
+% DOCUMENT BEGIN
+% ============================================
+\begin{document}
+
+% ============================================
+% TITLE PAGE
+% ============================================
+\begin{titlepage}
+    \centering
+    \vspace*{1.5cm}
+    
+    {\huge\textcolor{amaraprimary}{\textsc{Amara Studios}}}\\[0.4cm]
+    {\small\textcolor{amaradark}{Brand Advisory \& Creative Studio}}\\[0.2cm]
+    {\small\textit{\textcolor{amarasecondary}{Eternal by Design}}}
+    
+    \vspace{2.5cm}
+    
+    {\textcolor{amaraprimary}{\rule{\textwidth}{2pt}}}\\[0.6cm]
+    {\Huge\bfseries\textcolor{amaraprimary}{DJ PISTACCHIO}}\\[0.4cm]
+    {\LARGE\textcolor{amaradark}{Artist Development Plan}}\\[0.6cm]
+    {\textcolor{amaraprimary}{\rule{\textwidth}{2pt}}}
+    
+    \vspace{1.2cm}
+    
+    {\large\textit{\textcolor{amaragray}{``From Underground to Unavoidable''}}}
+    
+    \vspace{2cm}
+    
+    \begin{tabular}{rl}
+        \textcolor{amaraprimary}{\textbf{Artist:}} & Luca ``DJ Pistacchio'' \\[0.4cm]
+        \textcolor{amaraprimary}{\textbf{Genre:}} & House / Tech-House / Italo-Disco / Groove \\[0.4cm]
+        \textcolor{amaraprimary}{\textbf{Status:}} & Emerging Artist \\[0.4cm]
+        \textcolor{amaraprimary}{\textbf{Active Markets:}} & United States \& Europe \\[0.4cm]
+        \textcolor{amaraprimary}{\textbf{Management:}} & Amara Studios \\[0.4cm]
+        \textcolor{amaraprimary}{\textbf{Plan Duration:}} & 12 Months \\[0.4cm]
+    \end{tabular}
+    
+    \vfill
+    
+    {\textcolor{amaralightgray}{\rule{0.5\textwidth}{1pt}}}\\[0.5cm]
+    {\small\textcolor{amaragray}{Document Version 1.0}}\\
+    {\small\textcolor{amaragray}{December 2024}}\\[0.4cm]
+    {\footnotesize\textcolor{amaraprimary}{\textsc{Confidential --- For Internal Use Only}}}
+    
+\end{titlepage}
+
+% ============================================
+% TABLE OF CONTENTS
+% ============================================
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+
+% ============================================
+% EXECUTIVE SUMMARY
+% ============================================
+\section{Executive Summary}
+
+\begin{executivebox}
+DJ Pistacchio represents the next wave of European-influenced house music breaking into global consciousness. With a distinctive sonic identity blending house/tech-house grooves, eclectic Italo-disco, and sultry, groove-heavy sets, Luca has the foundational elements for cult status. His sound is warm, sexy, and unmistakably cool. 
+
+\vspace{0.5em}
+
+This plan outlines the strategic roadmap to transform him from an emerging talent to a recognized name in the underground-to-mainstream pipeline.
+\end{executivebox}
+
+\vspace{1em}
+
+\noindent\textbf{Strategic Objectives:}
+\begin{itemize}[leftmargin=*]
+    \item Establish distinctive brand identity and visual language
+    \item Build substantial social media presence (minimum 50K+ combined following)
+    \item Secure label releases and industry recognition
+    \item Develop touring infrastructure and booking relationships
+    \item Cultivate authentic community and cult following
+    \item Initiate strategic brand partnerships
+\end{itemize}
+
+% ============================================
+% PHASE 1
+% ============================================
+\section{Phase 1: Foundation \& Identity}
+\textit{Months 1--3}
+
+\subsection{Brand Identity Development}
+
+\subsubsection{Visual Identity System}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{>{\bfseries}l X}
+\toprule
+\rowcolor{amaracream}
+Element & Strategic Action \\
+\midrule
+Logo & Create a distinctive logo incorporating pistachio green and Italian motifs. Memorable, tattoo-worthy design \\
+Color Palette & Primary: Pistachio Green (\#93C572), Cream, Warm Terracotta \\
+Typography & Retro-modern Italian inspired (70s Italian cinema meets Berlin club aesthetic) \\
+Photography & Professional press photos. Moody, European aesthetic, shot on film or film-emulated \\
+Merchandise & Design 3--5 signature pieces for future product drops \\
+\bottomrule
+\end{tabularx}
+\caption{Visual Identity Framework}
+\end{table}
+
+\subsubsection{Artist Narrative \& Positioning}
+
+The following narrative elements will form the foundation of all press materials, bios, and communications:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Origin Story:} Born in Italy, shaped by the world---a sonic passport from Milano to Mykonos to Manhattan
+    \item \textbf{Name Identity:} ``Pistacchio''---lean into Italian heritage, make it memorable and ownable
+    \item \textbf{Market Position:} The bridge between Italo-disco's golden era and Berlin's modern underground
+\end{itemize}
+
+\begin{highlightbox}
+\textbf{Tagline Options:}
+\begin{itemize}[leftmargin=*,topsep=0pt]
+    \item ``Gusto Italiano''
+    \item ``Groove Universale''
+    \item ``Dolce Vita After Dark''
+\end{itemize}
+\end{highlightbox}
+
+\subsubsection{Unique Selling Proposition}
+
+\begin{quotebox}
+\textit{``DJ Pistacchio delivers what the scene is missing: soul. He brings the warmth of Italian summer evenings straight to the discotecha.''}
+\end{quotebox}
+
+\subsection{Social Media Foundation}
+
+\subsubsection{Instagram Strategy}
+\textit{Target: 26 followers $\rightarrow$ 15,000 followers in 6 months}
+
+\vspace{0.5em}
+\noindent\textbf{Content Pillars:}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l c X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Pillar} & \textbf{Allocation} & \textbf{Content Types} \\
+\midrule
+Behind-the-Scenes & 30\% & High-quality clips from sets, crowd reactions \\
+Performance & 25\% & Studio sessions, vinyl digging, pre-show rituals \\
+Lifestyle/Aesthetic & 20\% & Travel, food, Italian influence, fashion \\
+Educational & 15\% & Track ID posts, production tips, gear tours \\
+Community & 10\% & Reposts, shoutouts, fan engagement \\
+\bottomrule
+\end{tabularx}
+\caption{Instagram Content Distribution}
+\end{table}
+
+\noindent\textbf{Posting Cadence:}
+\begin{itemize}[leftmargin=*]
+    \item Feed posts: 4--5$\times$ per week
+    \item Stories: Daily (minimum 3--5 per day on event days)
+    \item Reels: 3--4$\times$ per week
+\end{itemize}
+
+\subsubsection{TikTok Strategy}
+\textit{Target: 0 $\rightarrow$ 25,000 followers in 6 months}
+
+\vspace{0.5em}
+\noindent\textbf{High-Performing Content Categories:}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{POV Content} --- ``POV: You're at my set when I drop [track]''
+    \item \textbf{Transitions} --- Outfit transitions, location transitions, before/after show
+    \item \textbf{DJ Tutorials} --- Quick mixing tips, beatmatching, effects chains
+    \item \textbf{Reaction Content} --- Reacting to crowd moments, classics, new releases
+    \item \textbf{Day-in-the-Life} --- ``What a touring DJ actually does in a day''
+    \item \textbf{Trending Sounds} --- Adapt trends to DJ/music context
+    \item \textbf{Italian Angle} --- ``Italian things that just hit different'' + music overlay
+\end{enumerate}
+
+\noindent\textbf{Viral Hook Templates:}
+\begin{itemize}[leftmargin=*]
+    \item ``Watch the exact moment 500 people lost their minds''
+    \item ``I'm an Italian DJ and here's what American clubs don't understand...''
+    \item ``This is the track that changed my life''
+    \item ``What \texteuro50 vs \texteuro5000 DJ equipment sounds like''
+\end{itemize}
+
+\subsection{Music Strategy}
+
+\subsubsection{Release Calendar --- Phase 1}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l l l X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Month} & \textbf{Release} & \textbf{Platform} & \textbf{Strategic Purpose} \\
+\midrule
+1 & DJ Mix (1 hr) & SoundCloud, Mixcloud, YouTube & Establish sound signature \\
+2 & Original/Remix & Spotify, Apple Music, Beatport & First official release \\
+3 & Edit Pack (3--4 tracks) & Free download (email gate) & Build mailing list \\
+\bottomrule
+\end{tabularx}
+\caption{Phase 1 Release Schedule}
+\end{table}
+
+\subsubsection{Target Labels}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Tier} & \textbf{Labels} \\
+\midrule
+Tier 1 (Attainable) & Permanent Vacation, Toy Tonics, Local Talk, Exploited Records, Shall Not Fade \\
+\midrule
+Tier 2 (Aspirational) & Keinemusik, Innervisions, Diynamic, Correspondant \\
+\bottomrule
+\end{tabularx}
+\caption{Label Targeting Strategy}
+\end{table}
+
+\subsection{Networking \& Industry Relationships}
+
+\noindent\textbf{Key Actions (Months 1--3):}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Build Target List} --- 50 key industry relationships:
+    \begin{itemize}
+        \item 20 venue bookers/promoters (local and target markets)
+        \item 10 peer DJs at similar or slightly higher level
+        \item 10 music journalists/bloggers
+        \item 5 label A\&R representatives
+        \item 5 brand contacts in lifestyle/fashion
+    \end{itemize}
+    
+    \item \textbf{Strategic Event Attendance} --- Be present at shows, industry events, label parties, conferences
+    
+    \item \textbf{DJ Relationship Building} --- Identify 5--10 peer DJs for mutual support, content sharing, and B2B opportunities
+    
+    \item \textbf{Authentic Online Engagement} --- Meaningful comments, genuine support, non-transactional relationship building
+\end{enumerate}
+
+\subsection{Booking Strategy}
+
+\subsubsection{Prerequisites}
+\begin{itemize}[leftmargin=*]
+    \item Professional Electronic Press Kit (EPK)
+    \item High-quality DJ photo set (minimum 10 images)
+    \item 3--5 recorded sets (video preferred)
+    \item Clear genre positioning
+    \item Professional rate card
+\end{itemize}
+
+\subsubsection{Target Venue Types}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l l X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Venue Type} & \textbf{Objective} & \textbf{Examples} \\
+\midrule
+Underground Clubs & Build credibility & Basement venues, warehouse parties \\
+Bar Residencies & Consistent visibility & trendy bars, hotel lounges, members clubs \\
+Day Events/Pop-ups & Expand following & Rooftop events, Summer Series, Coffee Shops \\
+Support Slots & Artist association & Opening for tours \\
+\bottomrule
+\end{tabularx}
+\caption{Phase 1 Venue Strategy}
+\end{table}
+
+\subsubsection{Residency Concept}
+
+\begin{highlightbox}
+\textbf{``GUSTO''} --- \textit{monthly event}
+\begin{itemize}[leftmargin=*,topsep=0pt]
+    \item Full promotion, curation, and branding ownership
+    \item Builds consistent local following
+    \item Creates recurring content opportunities
+    \item Establishes DJ Pistacchio as a tastemaker, not just a performer
+\end{itemize}
+\end{highlightbox}
+
+% ============================================
+% PHASE 2
+% ============================================
+\newpage
+\section{Phase 2: Acceleration}
+\textit{Months 3--6}
+
+\subsection{Content Scaling}
+
+\subsubsection{Production Support Options}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Option A:} Content exchange with visual artist/videographer
+    \item \textbf{Option B:} Management-provided content support
+    \item \textbf{Option C:} Part-time content assistant (10--15 hrs/week)
+\end{itemize}
+
+\subsubsection{Video Content Upgrade}
+\begin{itemize}[leftmargin=*]
+    \item Multi-camera set recordings with professional audio
+    \item ``Aftermovie'' style content from key performances
+    \item Signature visual style development across all video content (note: need to brainstorm)
+\end{itemize}
+
+\subsubsection{Media Circuit}
+Target appearances on:
+\begin{itemize}[leftmargin=*]
+    \item DJ-focused YouTube channels (e.g. livestreamed sets sessions)
+    \item Music, pop-culture-related podcasts
+    \item Local music/social Instagram interviews
+    \item Local/High-end lifestyle magazines (Angeleno Mag, etc.)
+    \item Relative subreddits related to music festivals, DJ sets, etc. featuring DJ Pistacchio  
+\end{itemize}
+
+\subsection{Release \& Label Strategy}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l l l X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Month} & \textbf{Release} & \textbf{Target} & \textbf{Notes} \\
+\midrule
+4 & Single/Remix & Small-medium label & First ``real'' label release \\
+5 & Guest Mix & Established series & Exposure to new audience \\
+6 & EP (3--4 tracks) & Medium label & Establish catalog depth \\
+\bottomrule
+\end{tabularx}
+\caption{Phase 2 Release Schedule}
+\end{table}
+
+\subsection{Geographic Expansion}
+
+\noindent\textbf{Priority Markets:}
+\begin{enumerate}[leftmargin=*]
+    \item Home base city (establish market dominance)
+    \item Secondary city in same country (New York, Los Angeles)
+    \item 1--2 international cities with scene alignment (Milano, London, Madrid)
+\end{enumerate}
+
+\noindent\textbf{Festival Applications:}
+\begin{itemize}[leftmargin=*]
+    \item Dekmantel (Amsterdam)
+    \item Kappa FuturFestival (Turin)
+    \item Sónar (Barcelona)
+    \item ADE Showcases (Amsterdam)
+    \item Movement (Detroit)
+    \item Dolce Far Niente Festival -- Hosted by DJ Pistacchio (Olive Grove, Puglia)
+\end{itemize}
+
+\subsection{Email \& Direct Audience Building}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Target:} 3,000 subscribers by Month 6
+    \item \textbf{Value Exchange:} Exclusive edits, early ticket access, unreleased music
+    \item \textbf{Newsletter Cadence:} Monthly with upcoming shows, new music,pop-ups
+\end{itemize}
+
+\subsection{Brand Partnership Foundations}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l l X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Category} & \textbf{Rationale} & \textbf{Target Brands} \\
+\midrule
+Streetwear/Fashion & Visual Identity & Stüssy, Ami Paris, Aimé Leon Dore, Von Hans, Slam Jam, local brands \\
+Beverage & Events & Aperol, Belvedere, Campari \\
+\\
+Hotels/Lounges/Listening Bars & Spaces & Hotel Costes, Portrait Milano, House of Koko, Art events, Members clubs \\
+Audio/Headphones & DJ Alignment & Audio-Technica, Marshall, Bose, DJ Equipment, Denon \\
+\bottomrule
+\end{tabularx}
+\caption{Brand Partnership Targets}
+\end{table}
+
+% ============================================
+% PHASE 3
+% ============================================
+\newpage
+\section{Phase 3: Establishment}
+\textit{Months 6--12}
+
+\subsection{Social Media Targets}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l c c X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Platform} & \textbf{6-Month} & \textbf{12-Month} & \textbf{Key Strategy} \\
+\midrule
+Instagram & 15K & 30--50K & Reels virality, collaborations \\
+TikTok & 25K & 75--100K & Consistent posting, trend adaptation \\
+YouTube & 5K & 15K & Set recordings, Shorts \\
+SoundCloud & 10K & 25K & Regular mixes, playlist placement \\
+Spotify & 5K & 15K & Consistent releases, editorial pitching \\
+\bottomrule
+\end{tabularx}
+\caption{Platform Growth Targets}
+\end{table}
+
+\subsection{Release Strategy Escalation}
+
+\noindent\textbf{Target Output (Months 6--12):}
+\begin{itemize}[leftmargin=*]
+    \item Compilation track inclusion
+    \item 2--3 EP releases on progressively notable labels
+    \item 1 remix on recognized release
+    \item Regular DJ mixes on established platforms
+\end{itemize}
+
+\noindent\textbf{Press \& PR:}
+\begin{itemize}[leftmargin=*]
+    \item Engage a music PR agency for key releases
+    \item Target: Resident Advisor, DJ Mag, Mixmag, Dancing Astronaut
+    \item Pursue written features, mix exclusives, track premieres
+\end{itemize}
+
+\subsection{Touring \& Booking Development}
+
+\subsubsection{Rate Evolution}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Phase} & \textbf{Rate Strategy} \\
+\midrule
+Months 1--3 & Accept strategic low/no-pay gigs for visibility \\
+Months 3--6 & Establish baseline rate; maintain consistency \\
+Months 6--9 & Increase rate 20--30\% with documented growth metrics \\
+Months 9--12 & Premium positioning based on demonstrated demand \\
+\bottomrule
+\end{tabularx}
+\caption{Booking Rate Progression}
+\end{table}
+
+\subsubsection{International Market Development}
+
+\noindent\textbf{Target Markets:}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Europe:} Berlin, Amsterdam, London, Paris
+    \item \textbf{United States:} New York, Los Angeles, Miami, Chicago, Detroit
+    \item \textbf{Emerging:}  Mexico City, Tel Aviv, Beirut
+\end{itemize}
+
+\subsubsection{Agent Consideration}
+By Month 9--12, if trajectory supports:
+\begin{itemize}[leftmargin=*]
+    \item Research boutique booking agencies
+    \item Prepare comprehensive pitch package
+    \item Evaluate terms and territory arrangements
+    \item Consider regional vs. global representation
+\end{itemize}
+
+\subsection{Brand Partnerships Activation}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{X X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Months 6--9} & \textbf{Months 9--12} \\
+\midrule
+Secure 1--2 product partnership deals & Secure first paid brand partnership \\
+Create co-branded content & Explore ambassador opportunities \\
+Prove ROI and engagement metrics & Develop case studies for larger brands \\
+\bottomrule
+\end{tabularx}
+\caption{Partnership Escalation Timeline}
+\end{table}
+
+\noindent\textbf{Partnership Progression:}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Gifted Product} --- Free gear/products for content
+    \item \textbf{Affiliate} --- Commission on sales through unique code
+    \item \textbf{Paid Content} --- Fixed fee for branded content creation
+    \item \textbf{Ambassador} --- Ongoing relationship with retainer
+\end{enumerate}
+
+\subsection{Community \& Cult Following}
+
+\subsubsection{Building ``Pistacchio's People''}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Signature Elements} --- Develop recognizable rituals (specific opener track, visual cues, catchphrases)
+    \item \textbf{Fan Recognition} --- Remember and acknowledge regulars
+    \item \textbf{Exclusive Access} --- Private community group, early access, behind-the-scenes content
+    \item \textbf{Inside References} --- Develop community-specific language and jokes
+    \item \textbf{Accessibility} --- Post-show fan interaction when possible
+    \item \textbf{Surprise \& Delight} --- Random fan appreciation (complimentary tickets, shoutouts, merchandise)
+\end{enumerate}
+
+\subsubsection{Community Platforms}
+\begin{itemize}[leftmargin=*]
+    \item Private Discord or Telegram group for superfans
+    \item Email list for exclusive content distribution
+    \item ``Fan of the Month'' recognition features
+\end{itemize}
+
+% ============================================
+% BUDGET FRAMEWORK
+% ============================================
+\newpage
+\section{Budget Framework}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{l c X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Category} & \textbf{Monthly Range} & \textbf{Notes} \\
+\midrule
+Content Creation & \texteuro300--800 & Higher in early months for asset development \\
+Paid Social & \texteuro100--300 & Scale with winning content identification \\
+Music Production & \texteuro100--400 & Per release (mixing/mastering) \\
+PR/Press & \texteuro0--1,000 & Engage for key release moments \\
+Travel & Variable & Strategic market investment \\
+Merchandise & \texteuro0--500 & When demand justifies production \\
+Equipment/Software & \texteuro100--200 & Ongoing tool investment \\
+\midrule
+\textbf{Total Monthly} & \textbf{\texteuro600--3,000} & \textit{Scale based on resources and returns} \\
+\bottomrule
+\end{tabularx}
+\caption{Recommended Investment Framework}
+\end{table}
+
+% ============================================
+% KPIs
+% ============================================
+\section{Key Performance Indicators}
+
+\subsection{Monthly Tracking Metrics}
+
+\noindent\textbf{Social Metrics:}
+\begin{itemize}[leftmargin=*]
+    \item Follower growth rate (Target: 15--25\% MoM initially)
+    \item Engagement rate (Target: 5--8\% on Instagram)
+    \item Video views (Reels/TikTok)
+    \item Profile visits and link clicks
+\end{itemize}
+
+\noindent\textbf{Music Metrics:}
+\begin{itemize}[leftmargin=*]
+    \item Spotify monthly listeners
+    \item SoundCloud plays
+    \item Shazam tags (indicator of in-person impact)
+    \item Beatport chart positions (if applicable)
+\end{itemize}
+
+\noindent\textbf{Business Metrics:}
+\begin{itemize}[leftmargin=*]
+    \item Number of booking inquiries
+    \item Average booking fee
+    \item Email list growth
+    \item Media mentions/press coverage
+\end{itemize}
+
+\subsection{Milestone Targets}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{X c c}
+\toprule
+\rowcolor{amaracream}
+\textbf{Milestone} & \textbf{Target} & \textbf{Timeline} \\
+\midrule
+Instagram Followers & 10,000 & Month 6--7 \\
+First Paid Brand Deal & Secured & Month 4--6 \\
+First Festival Booking & Confirmed & Month 8--12 \\
+Booking Agent Meeting & Initiated & Month 10--12 \\
+Combined Social Following & 50,000 & Month 10 \\
+\bottomrule
+\end{tabularx}
+\caption{12-Month Milestone Framework}
+\end{table}
+
+% ============================================
+% APPENDICES
+% ============================================
+\newpage
+\section{Appendices}
+
+\subsection{Appendix A: EPK Contents Checklist}
+
+\begin{itemize}[leftmargin=*]
+    \item[$\square$] High-resolution press photos (minimum 5)
+    \item[$\square$] Artist bio (long: 300 words, short: 100 words, one-liner)
+    \item[$\square$] Music links (Spotify, SoundCloud, YouTube)
+    \item[$\square$] 3--5 best DJ set recordings with tracklists
+    \item[$\square$] Press quotes/reviews (when available)
+    \item[$\square$] Upcoming shows
+    \item[$\square$] Social media links and follower counts
+    \item[$\square$] Technical rider
+    \item[$\square$] Contact information
+\end{itemize}
+
+\subsection{Appendix B: Venue Pitch Template}
+
+\begin{highlightbox}
+\small
+\textbf{Subject:} DJ Pistacchio: [Venue Name] Booking Inquiry
+
+\vspace{0.5em}
+
+Dear [Name],
+
+\vspace{0.5em}
+
+I hope this message finds you well. My team and I represent Luca, better known as DJ Pistacchio, a Milan-based DJ who's building a really exciting presence internationally.  I am reaching out regarding a potential booking for DJ Pistacchio at [Venue Name].
+
+\vspace{0.5em}
+
+We have been following [Venue Name]'s programming and [brief reference to a recent event / series / resident, e.g. 
+“your recent series with [Artist/Concept]”]. The way your team curates both sound and spaces represents exactly the kind of forward-thinking vision that aligns with our artist. We feel his style would be a natural fit for the atmosphere and identity you've cultivated at [Venue Name]
+
+\vspace{0.5em}
+
+Luca brings a distinctive sound blending house/tech-house, electic Italo-disco, and groove-heavy sets. He has been building momentum with recent performances at [venues] and releases on [labels/platforms].
+
+\vspace{0.5em}
+
+Please find below a selection of representative work:
+\vspace{0.5em}
+\begin{itemize}[leftmargin=*,topsep=0pt]
+    \item Featured DJ Set: [Link]
+    \item Instagram: [Link]
+    \item Original Music: [Link]
+\end{itemize}
+
+\vspace{0.5em}
+
+We’d love to explore the possibility of a set at [Venue Name] around [proposed target dates / date range]. Happy to share a full EPK, additional mixes, or anything else you usually review for bookings.
+
+\vspace{0.5em}
+
+Thank you very much for your time and consideration. We look forward to hearing whether this could be a good fit for your programming.
+
+\vspace{0.5em}
+Best regards,\\
+[Name]\\
+Amara Studios
+[Email] | [Phone] | [Website/IG]
+\end{highlightbox}
+
+\subsection{Appendix C: Recommended Tools}
+
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{l X}
+\toprule
+\rowcolor{amaracream}
+\textbf{Category} & \textbf{Recommended Tools} \\
+\midrule
+Social Scheduling & Later, Planoly, Meta Business Suite \\
+Analytics & Spotify for Artists, Chartmetric, Social Blade \\
+Email Marketing & Mailchimp, Substack \\
+EPK Hosting & Muso.AI, Personal Website \\
+Design & Canva, Figma \\
+Music Distribution & DistroKid, TuneCore, AWAL \\
+Link Management & Linkfire, Linktree \\
+\bottomrule
+\end{tabularx}
+\caption{Tool Recommendations by Category}
+\end{table}
+
+\subsection{Appendix D: Competitive Analysis Reference}
+
+\noindent\textbf{Artists to Study (Trajectory Models):}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Keinemusik} (Adam Port, \&ME, Rampa) --- Brand building, visual identity, collective power
+    \item \textbf{Peggy Gou} --- Crossover appeal, fashion integration, social presence
+    \item \textbf{DJ Boring} --- Cult following through authentic approach
+    \item \textbf{Ross From Friends} --- Indie crossover, brand partnerships
+    \item \textbf{Chaos in the CBD} --- Organic growth, consistent quality
+\end{itemize}
+
+% ============================================
+% CLOSING
+% ============================================
+\newpage
+\section{Closing Remarks}
+
+The path from emerging to established artist is not linear. Expect:
+\begin{itemize}[leftmargin=*]
+    \item Slow periods and sudden acceleration
+    \item Rejections and breakthrough moments
+    \item Algorithm changes and platform shifts
+\end{itemize}
+
+\vspace{1em}
+
+\noindent\textbf{Core Principles to Maintain:}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Consistency beats virality} --- Show up every day
+    \item \textbf{Authenticity is irreplaceable} --- Stay true to the sound and story
+    \item \textbf{Relationships are everything} --- Invest in genuine connections
+    \item \textbf{Quality over quantity} --- Better to release less but better
+    \item \textbf{Play the long game, but also have fun!} --- Career + the moment
+\end{enumerate}
+
+\vspace{2em}
+
+\begin{center}
+\rule{0.6\textwidth}{0.5pt}
+\end{center}
+
+\vspace{1em}
+
+\begin{quotebox}
+\centering
+\large\textit{``Luck is what happens when preparation meets opportunity.'' -- Seneca''}
+\end{quotebox}
+
+\vspace{2em}
+
+\begin{center}
+DJ Pistacchio has all the ingredients to be a DJ on a PJ by Summer 2026: \\
+
+\vspace{0.5em}
+
+The Sound, the Story, and the Team (plus also Aura + Bismaad + Justin). \\
+
+\vspace{0.6em}
+
+With persistent, disciplined execution of this plan, the next 12 months will position DJ Pistacchio as an established, in-demand, household name for people, venues, and spaces that care about cultivating atmosphere and taste.\\
+
+\vspace{0.6em}
+
+FORZE TEAM PISTACCHIO!!
+
+\end{center}
+
+\vspace{3em}
+
+\begin{center}
+{\textcolor{amaraprimary}{\rule{0.4\textwidth}{1.5pt}}}\\[1.2em]
+{\large\textcolor{amaraprimary}{\textsc{Amara Studios}}}\\[0.4em]
+{\small\textcolor{amaradark}{Brand Advisory \& Creative Studio}}\\[0.3em]
+{\small\textit{\textcolor{amarasecondary}{Eternal by Design}}}\\[1.2em]
+{\textcolor{amaraprimary}{\rule{0.4\textwidth}{1.5pt}}}
+\end{center}
+
+\end{document}
